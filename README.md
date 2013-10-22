@@ -3,6 +3,8 @@
 EnableJS is a simple assets gem that enables a submit button within a form if
 the required fields are filled.
 
+*This gem requires jQuery.*
+
 ## Installation
 
 Add this line to your application's Gemfile:
