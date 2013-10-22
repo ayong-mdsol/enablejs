@@ -8,16 +8,15 @@ Gem::Specification.new do |spec|
   spec.version       = Enablejs::VERSION
   spec.authors       = ["Andy Yong"]
   spec.email         = ["ayong@mdsol.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{EnableJS}
+  spec.summary       = %q{This assets gem enables submit buttons on a form element when all the required fields are filled.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_dependency             "railties", "~> 3.1"
 end
