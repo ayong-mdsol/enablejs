@@ -7,7 +7,7 @@ the required fields are filled.
 
 Add this line to your application's Gemfile:
 
-    gem 'enablejs', git: "git@github.com:ayong-mdsol/enablejs.git", branch: "master"
+		gem 'enablejs', git: "git@github.com:ayong-mdsol/enablejs.git", branch: "master"
 
 And then execute:
 
@@ -21,11 +21,13 @@ And then execute:
 3. Add the .required class to the required inputs.
 4. Add the class .submit_btn to the input type submit.
 5. Add this at the bottom of your page 
-	<script>
-		$(document).ready( function(){
-			$("#enable_form").enableButton();
-		});
-	</script>
+	
+		<script>
+			$(document).ready( function(){
+				$("#enable_form").enableButton();
+			});
+		</script>
+	
 6. Optionally, add the .text_field class to the inputs for basic styling.
 
 ## Contributing
