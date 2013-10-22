@@ -1,24 +1,32 @@
-# Enablejs
+# EnableJS
 
-TODO: Write a gem description
+EnableJS is a simple assets gem that enables a submit button within a form if
+the required fields are filled.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'enablejs'
+    gem 'enablejs', git: "git@github.com:ayong-mdsol/enablejs.git", branch: "master"
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install enablejs
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Add a form to your page with the id #enable_form
+2. Add labels and inputs.
+3. Add the .required class to the required inputs.
+4. Add the class .submit_btn to the input type submit.
+5. Add this at the bottom of your page 
+	<script>
+		$(document).ready( function(){
+			$("#enable_form").enableButton();
+		});
+	</script>
+6. Optionally, add the .text_field class to the inputs for basic styling.
 
 ## Contributing
 
