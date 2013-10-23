@@ -30,7 +30,8 @@ And then execute:
 			});
 		</script>
 	
-6. Optionally, add the .text_field class to the inputs for basic styling.
+6. Optionally, add the .text_field class to the inputs for basic styling. 
+*(See demo at http://andyyong.com/enablejs.html)*
 
 ## Contributing
 
